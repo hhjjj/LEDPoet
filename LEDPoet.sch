@@ -2585,10 +2585,10 @@ Source: Fairchild .. BAT54.pdf</description>
 <circle x="0" y="0" radius="0.762" width="0.0508" layer="21"/>
 <circle x="-4.572" y="2.54" radius="0.127" width="0.1524" layer="51"/>
 <circle x="-4.572" y="-2.54" radius="0.127" width="0.1524" layer="51"/>
-<pad name="3" x="-6.2484" y="-2.4892" drill="1.1938" shape="long"/>
-<pad name="4" x="6.2484" y="-2.4892" drill="1.1938" shape="long"/>
-<pad name="1" x="-6.2484" y="2.4892" drill="1.1938" shape="long"/>
-<pad name="2" x="6.2484" y="2.4892" drill="1.1938" shape="long"/>
+<pad name="3" x="-6.2484" y="-2.4892" drill="1.397" shape="long"/>
+<pad name="4" x="6.2484" y="-2.4892" drill="1.397" shape="long"/>
+<pad name="1" x="-6.2484" y="2.4892" drill="1.397" shape="long"/>
+<pad name="2" x="6.2484" y="2.4892" drill="1.397" shape="long"/>
 <text x="-5.08" y="6.985" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.175" y="-5.08" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <text x="-5.207" y="3.302" size="1.27" layer="21" ratio="10">1</text>
@@ -2645,7 +2645,12 @@ Source: Fairchild .. BAT54.pdf</description>
 <connect gate="1" pin="S1" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MF" value="OMRON COMPONENTS USA" constant="no"/>
+<attribute name="MPN" value="B3F-4000" constant="no"/>
+<attribute name="OC_FARNELL" value="176434" constant="no"/>
+<attribute name="OC_NEWARK" value="36K3105" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
